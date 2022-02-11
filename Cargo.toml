@@ -9,3 +9,4 @@ authors = ["ryskit"]
 [dependencies]
 anyhow = "1.0.52"
 tokio = { version = "1.16.1", features = ["full"] }
+rand = "0.8.4"

@@ -24,8 +24,6 @@ impl Shutdown {
             return;
         }
 
-        sleep(Duration::from_secs(10)).await;
-
         let _ = self.notify.recv().await;
 
         self.shutdown = true;
